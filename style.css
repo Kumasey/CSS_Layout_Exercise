@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('black-brick.jpg');
+}
+header{
+    padding: 10px;
+    background-color: black;
+    color: orange;
+}
+div{
+    width: 100px;
+    height: 100px;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    background: gray;
+    height: 500px;
+    width: 500px;
+    margin-left: 400px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.first{
+    display: flex;
+    background: indigo;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 472px;
+    border-style: solid;
+    border-color: black;
+}
+.second{
+    background: lightcoral;
+    margin-left: 8px;
+    margin-right: 5px;
+    justify-content: space-around;
+    height: 350px;
+    width: 140px;
+    border-style: solid;
+    border-color: black;
+}
+
+.third{
+    background: rgb(21, 94, 54);
+    margin: 0px 5px;
+    width: 150px;
+    height: 350px;
+    border-style: solid;
+    border-color: black;
+}
+
+.fourth{
+    background: orange;
+    width: 150px;
+    margin: 0px 5px;
+    height: 350px;
+    border-style: solid;
+    border-color: black;
+}
